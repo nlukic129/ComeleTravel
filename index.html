@@ -1,0 +1,917 @@
+<!doctype html>
+<html class="no-js"  lang="en">
+												<!-- main.js PRETRAGA--> 
+	<head>
+
+		
+		
+		<!-- META DATA -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+
+		<!-- TITLE OF SITE -->
+		<title>ComeleTravel</title>
+
+		<!-- favicon img -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+
+		<!--font-awesome.min.css-->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+		<!--animate.css-->
+		<link rel="stylesheet" href="assets/css/animate.css" />
+
+		<!--hover.css-->
+		<link rel="stylesheet" href="assets/css/hover-min.css">
+
+		<!--datepicker.css-->
+		<link rel="stylesheet"  href="assets/css/datepicker.css" >
+
+		<!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css"/>
+
+		<!-- range css-->
+        <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+
+		<!--bootstrap.min.css-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css"/>
+
+		<!--style.css-->
+		<link rel="stylesheet" href="assets/css/style.css" />
+
+		<!--responsive.css-->
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	</head>
+
+	<body>
+		
+		<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+			your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+
+		<!-- main-menu Start -->
+		<button onclick="gorefja()" id="gore"><i class="fa fa-angle-double-up"></i></button>
+		<header class="top-area">
+			<div class="header-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-2">
+							<div class="logo">
+								<a href="index.html">
+									Comele<span>Travel</span>
+								</a>
+							</div><!-- /.logo-->
+						</div><!-- /.col-->
+						<div class="col-sm-10">
+							<div class="main-menu" >
+							
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+										<i class="fa fa-bars"></i>
+									</button><!-- / button-->
+								</div><!-- /.navbar-header-->
+								<div class="collapse navbar-collapse" id="navMeni">	
+										  
+									
+									<!--main.js-->
+
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div><!-- /.main-menu-->
+						</div><!-- /.col-->
+					</div><!-- /.row -->
+					<div class="home-border"></div><!-- /.home-border-->
+				</div><!-- /.container-->
+			</div><!-- /.header-area -->
+
+		</header><!-- /.top-area-->
+		<!-- main-menu End -->
+
+		
+		<!--about-us start -->
+		<section id="home" class="about-us">
+			<div class="container">
+				<div class="about-us-content">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="single-about-us">
+								<div class="about-us-txt">
+									<h2>
+										Explore the Beauty of the Beautiful World 
+
+									</h2>
+									<div class="about-btn">
+										<button  class="about-view" href="#litours" onclick="explore()">
+											explore now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.about-us-txt-->
+							</div><!--/.single-about-us-->
+						</div><!--/.col-->
+						<div class="col-sm-0">
+							<div class="single-about-us">
+								
+							</div><!--/.single-about-us-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.about-us-content-->
+			</div><!--/.container-->
+
+		</section><!--/.about-us-->
+		<!--about-us end -->
+
+		<!--travel-box start-->
+		<section  class="travel-box">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="single-travel-boxes">
+        					<div id="desc-tabs" class="desc-tabs">
+
+								<ul class="nav nav-tabs" role="tablist">
+
+									<li role="presentation" class="" id="litours">
+									 	<a  aria-controls="tours" role="tab" data-toggle="tab">
+									 		<i class="fa fa-tree"></i>
+									 		tours
+									 	</a>
+									</li>
+
+									<li role="presentation" id="lihotels">
+										<a  aria-controls="hotels" role="tab" data-toggle="tab">
+											<i class="fa fa-building"></i>
+											hotels
+										</a>
+									</li>
+
+									<li role="presentation" id="liflights">
+									 	<a aria-controls="liflights" role="tab" data-toggle="tab">
+									 		<i class="fa fa-plane"></i>
+									 		flights
+									 	</a>
+									</li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+
+									<div role="tabpanel" class="tab-pane active fade in" id="tours">
+										<div class="tab-para">
+
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>destination</h2>
+															
+														<div class="travel-select-icon" id="selektovanje">
+															<!-- main.js-->
+														</div>
+
+														
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>check in</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="check_in" class="form-control" data-toggle="datepicker" placeholder="Check In ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>check out</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="check_out" class="form-control"  data-toggle="datepicker" placeholder="Check Out ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>duration</h2>
+														<div class="travel-select-icon" id="duration2">
+															
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>members</h2>
+														<div class="travel-select-icon" id="members1">
+															<!-- main.js-->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+											<div class="row">
+												<div class="col-sm-5">
+													<div class="travel-budget">
+														<div class="row">
+															<div class="col-md-3 col-sm-4">
+																
+															</div><!--/.col-->
+															<div class="co-md-9 col-sm-8">
+																<div class="travel-filter">
+																	<div class="info_widget">
+																		<div class="price_filter">
+																			
+																			<!--/.slider-range-->
+
+																			
+																		</div><!--/.price-filter-->
+																	</div><!--/.info_widget-->
+																</div><!--/.travel-filter-->
+															</div><!--/.col-->
+														</div><!--/.row-->
+													</div><!--/.travel-budget-->
+												</div><!--/.col-->
+												<div class="clo-sm-7">
+													<div class="about-btn travel-mrt-0 pull-right">
+														<button  class="about-view travel-btn">
+															search	
+														</button><!--/.travel-btn-->
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+										</div><!--/.tab-para-->
+
+									</div><!--/.tabpannel-->
+
+									<div role="tabpanel" class="tab-pane fade in" id="hotels">
+										<div class="tab-para">
+
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>hotels</h2>
+
+														<div class="travel-select-icon" id="gradoviHotel">
+															<!-- main.js-->
+														</div>
+
+														<div class="travel-select-icon" id="hotelNaziv">
+															<!-- main.js-->
+														</div>
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>check in</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="check_in" class="form-control" data-toggle="datepicker" placeholder="12 -01 - 2017 ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>check out</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="check_out" class="form-control"  data-toggle="datepicker" placeholder="22 -01 - 2017 ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>duration</h2>
+														<div class="travel-select-icon" id="duration1">
+														
+																<!-- main.js-->
+															
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>members</h2>
+														<div class="travel-select-icon" id="members2">
+															<!-- main.js-->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+											<div class="row">
+												<div class="col-sm-5"></div><!--/.col-->
+												<div class="clo-sm-7">
+													<div class="about-btn travel-mrt-0 pull-right">
+														<button  class="about-view travel-btn">
+															search	
+														</button><!--/.travel-btn-->
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+										</div><!--/.tab-para-->
+
+									</div><!--/.tabpannel-->
+
+									<div role="tabpanel" class="tab-pane fade in" id="flights">
+										<div class="tab-para">
+											<div class="trip-circle">
+												<div class="single-trip-circle">
+													<input type="radio" id="radio01" name="radio" />
+  													<label for="radio01">
+  														<span class="round-boarder">
+  															<span class="round-boarder1"></span>
+  														</span>round trip
+  													</label>
+												</div><!--/.single-trip-circle-->
+												<div class="single-trip-circle">
+													<input type="radio" id="radio02" name="radio" />
+  													<label for="radio02">
+  														<span class="round-boarder">
+  															<span class="round-boarder1"></span>
+  														</span>on way
+  													</label>
+												</div><!--/.single-trip-circle-->
+											</div><!--/.trip-circle-->
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>from</h2>
+
+														<div class="travel-select-icon" id="letOd">
+															<!-- main.js -->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>departure</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="departure" class="form-control" data-toggle="datepicker"
+																placeholder="12 -01 - 2017 ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>return</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="return" class="form-control" data-toggle="datepicker" placeholder="22 -01 - 2017 ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>adults</h2>
+														<div class="travel-select-icon" id="odrasliMesto">
+															<!-- main.js -->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>childs</h2>
+														<div class="travel-select-icon" id="decaMesto">
+															<!-- main.js -->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>to</h2>
+
+														<div class="travel-select-icon" id="letKa">
+															<!-- main.js -->
+														</div><!-- /.travel-select-icon -->
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+												<div class="col-lg-3 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+
+														<h2>class</h2>
+														<div class="travel-select-icon" id="klasaMesto">
+															<!-- main.js -->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+												<div class="clo-sm-5">
+													<div class="about-btn pull-right">
+														<button  class="about-view travel-btn">
+															search	
+														</button><!--/.travel-btn-->
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+												
+											</div><!--/.row-->
+
+										</div>
+
+									</div><!--/.tabpannel-->
+
+								</div><!--/.tab content-->
+							</div><!--/.desc-tabs-->
+        				</div><!--/.single-travel-box-->
+        			</div><!--/.col-->
+        		</div><!--/.row-->
+        	</div><!--/.container-->
+
+        </section><!--/.travel-box-->
+		<!--travel-box end-->
+
+        <!--service start-->
+		<section id="service" class="service">
+			<div class="container">
+
+				<div class="service-counter text-center">
+
+					<div class="col-md-4 col-sm-4">
+						<div class="single-service-box">
+							<div class="service-img">
+								<img src="assets/images/service/s1.png" alt="service-icon" />
+							</div><!--/.service-img-->
+							<div class="service-content">
+								<h2>
+									<a href="#">
+									amazing tour packages
+									</a>
+								</h2>
+								
+							</div><!--/.service-content-->
+						</div><!--/.single-service-box-->
+					</div><!--/.col-->
+
+					<div class="col-md-4 col-sm-4">
+						<div class="single-service-box">
+							<div class="service-img">
+								<img src="assets/images/service/s2.png" alt="service-icon" />
+							</div><!--/.service-img-->
+							<div class="service-content">
+								<h2>
+									<a href="#">
+										book top class hotel
+									</a>
+								</h2>
+								
+							</div><!--/.service-content-->
+						</div><!--/.single-service-box-->
+					</div><!--/.col-->
+
+					<div class="col-md-4 col-sm-4">
+						<div class="single-service-box">
+							<div class="statistics-img">
+								<img src="assets/images/service/s3.png" alt="service-icon" />
+							</div><!--/.service-img-->
+							<div class="service-content">
+
+								<h2>
+									<a href="#">
+										online flight booking
+									</a>
+								</h2>
+								
+							</div><!--/.service-content-->
+						</div><!--/.single-service-box-->
+					</div><!--/.col-->
+
+				</div><!--/.statistics-counter-->	
+			</div><!--/.container-->
+
+		</section><!--/.service-->
+		<!--service end-->
+
+		<!--galley start-->
+		<section id="gallery" class="gallery">
+			<div class="container">
+				<div class="gallery-details">
+					<div class="gallary-header text-center">
+						<h2>
+							top destination
+						</h2>
+						
+					</div><!--/.gallery-header-->
+					<div class="gallery-box">
+						<div class="gallery-content">
+						  	<div class="filtr-container">
+						  		<div class="row" id="galerija">
+
+						  			<div class="col-md-6">
+						  				<div class="filtr-item">
+											<img src="assets/images/gallary/g1.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													china
+												</a>
+												<p><span>20 tours</span><span>15 places</span></p>
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-6">
+						  				<div class="filtr-item">
+											<img src="assets/images/gallary/g2.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													venuzuala
+												</a>
+												<p><span>12 tours</span><span>9 places</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-4">
+						  				<div class="filtr-item">
+											<img src="assets/images/gallary/g3.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													brazil
+												</a>
+												<p><span>25 tours</span><span>10 places</span></p>
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-4">
+						  				<div class="filtr-item">
+											<img src="assets/images/gallary/g4.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													australia 
+												</a>
+												<p><span>18 tours</span><span>9 places</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-4">
+						  				<div class="filtr-item">
+											<img src="assets/images/gallary/g5.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													netharland
+												</a>
+												<p><span>14 tours</span><span>12 places</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-8">
+						  				<div class="filtr-item">
+											<img src="assets/images/gallary/g6.jpg" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													turkey
+												</a>
+												<p><span>14 tours</span><span>6 places</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  		</div><!-- /.row -->
+
+						  	</div><!-- /.filtr-container-->
+						</div><!-- /.gallery-content -->
+					</div><!--/.galley-box-->
+				</div><!--/.gallery-details-->
+			</div><!--/.container-->
+
+		</section><!--/.gallery-->
+		<!--gallery end-->
+
+
+		<!--discount-offer start-->
+		<section class="discount-offer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="dicount-offer-content text-center">
+							<h2>Look at our special offer</h2>
+							<div class="campaign-timer">
+								<div id="timer">
+									<div class="time time-after" id="days">
+										<span></span>
+									</div><!--/.time-->
+									<div class="time time-after" id="hours">
+
+									</div><!--/.time-->
+									<div class="time time-after" id="minutes">
+
+									</div><!--/.time-->
+									<div class="time" id="seconds">
+
+									</div><!--/.time-->
+								</div><!--/.timer-->
+							</div><!--/.campaign-timer-->
+							<div class="about-btn">
+								<button onclick="kaPonudi()"  class="about-view discount-offer-btn">
+									Special offer
+								</button>
+							</div><!--/.about-btn-->
+
+
+						</div><!-- /.dicount-offer-content-->
+					</div><!-- /.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+
+		</section><!-- /.discount-offer-->
+		<!--discount-offer end-->
+
+		<!--packages start-->
+		<section id="pack" class="packages">
+			<div class="container">
+				<div class="gallary-header text-center">
+					<h2>
+						special packages
+					</h2>
+					
+				</div><!--/.gallery-header-->
+				<div class="packages-content">
+					<div class="row" id = "specPonude">
+
+						<!-- main.js-->
+
+					</div><!--/.row-->
+				</div><!--/.packages-content-->
+			</div><!--/.container-->
+
+		</section><!--/.packages-->
+		<!--packages end-->
+
+		<div id="slider"></div>
+
+		
+		
+
+
+		<!--special-offer start-->
+		<section id="spo" class="special-offer" >
+			
+
+		</section><!--/.special-offer end-->
+		<!--special-offer end-->
+
+		<!--blog start-->
+		<section id="blog" class="blog">
+			<div class="container">
+				<div class="blog-details">
+						<div class="gallary-header text-center">
+							<h2>
+								latest news
+							</h2>
+							<p>
+								Travel News from all over the world 
+							</p>
+						</div><!--/.gallery-header-->
+						<div class="blog-content">
+							<div class="row" id="latestNews">
+
+								<!--main.js-->
+
+							</div><!--/.row-->
+						</div><!--/.blog-content-->
+					</div><!--/.blog-details-->
+				</div><!--/.container-->
+
+		</section><!--/.blog-->
+		<!--blog end-->
+
+		
+		<!--subscribe start-->
+		<section id="subs" class="subscribe">
+			<div class="container">
+				<div class="subscribe-title text-center">
+					<form>
+
+						<div class="row" id="name">
+							<div class="col-md-6">
+							  <label for="exampleInputEmail1">First Name</label>
+							  <input type="text" class="form-control" placeholder="First name" id="ime">
+							  <div id="greskaIme"><p>First Name is incorrect</p></div>
+							</div>
+							<div class="col-md-6">
+							  <label for="exampleInputEmail1">Last Name</label>
+							  <input type="text" class="form-control" placeholder="Last name" id="prezime">
+							  <div id="greskaPrezime"><p>Last Name is incorrect</p></div>
+							</div>
+						</div>
+						<div class="form-group">
+						  <label for="exampleInputEmail1">Email Address</label>
+						  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" >
+						  <div id="greskaEmail"><p>E-mail is incorrect</p></div>
+						  
+						</div>
+						
+						<div class="form-group">
+							<label for="exampleFormControlSelect1">Destination</label>
+
+
+							<div >
+								<select class="form-control " id="bookSelect">
+
+								</select>
+								<div id="greskaSelect"><p>You must select destination</p></div>
+
+							</div>
+							
+							  
+							
+						
+						  
+						  
+					  </form>
+
+					  <div id="submit">
+							<button type="submit" class="btn btn-primary" value="Posalji" id="posaljiPodatke">Submit</button>
+							<div id="ispravno"><p>Thank you for your interest in this journey! We will contact you for further information.</p></div>
+						  </div>
+				</div>
+				
+
+		</section>
+		<!--subscribe end-->
+
+		<!-- footer-copyright start -->
+		<footer  class="footer-copyright">
+			<div class="container">
+				<div class="footer-content">
+					<div class="row">
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<div class="footer-logo">
+									<a href="index.html">
+										Comele<span>Travel</span>
+									</a>
+									<p>
+										best travel agency
+									</p>
+								</div>
+							</div><!--/.single-footer-item-->
+						</div><!--/.col-->
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<h2>link</h2>
+								<div class="single-footer-txt" id="meniFuter" >
+
+									<!--main js-->
+
+								</div><!--/.single-footer-txt-->
+							</div><!--/.single-footer-item-->
+
+						</div><!--/.col-->
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<h2>popular destination</h2>
+								<div class="single-footer-txt" id="destinacijeFuter">
+									
+									<!--main js-->
+
+								</div><!--/.single-footer-txt-->
+							</div><!--/.single-footer-item-->
+						</div><!--/.col-->
+
+						<div class="col-sm-3">
+							<div class="single-footer-item text-center">
+								<h2 class="text-left">contacts</h2>
+								<div class="single-footer-txt text-left">
+									<p>011 3290828</p>
+									<p class="foot-email"><a href="#">info@ctravel.com</a></p>
+									<p>Zdravka Celara 16</p>
+									<p>Belgrade, SRB</p>
+									<div id="podaci">
+										<p><a href="aboutme.html">About Me</a></p>
+										<p><a href="dokumentacija.pdf">Documentation</a></p>
+										
+									</div>
+									
+								</div><!--/.single-footer-txt-->
+							</div><!--/.single-footer-item-->
+						</div><!--/.col-->
+
+					</div><!--/.row-->
+
+				</div><!--/.footer-content-->
+				<hr>
+				<div class="foot-icons ">
+					<ul class="footer-social-links list-inline list-unstyled">
+		                <li><a href="#" target="_blank" class="foot-icon-bg-1"><i class="fa fa-facebook"></i></a></li>
+		                <li><a href="#" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
+		                <li><a href="#" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
+		        	</ul>
+					
+
+		        </div><!--/.foot-icons-->
+				<div id="scroll-Top">
+					<i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div><!--/.scroll-Top-->
+			</div><!-- /.container-->
+
+		</footer><!-- /.footer-copyright-->
+		<!-- footer-copyright end -->
+
+		<link rel="stylesheet" href="assets/css/mojStyle.css" type="text/css"/>
+		<script src="assets/js/main.js" ></script>
+
+		<script src="assets/js/jquery.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+		<!--modernizr.min.js-->
+		<script  src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
+		<!--bootstrap.min.js-->
+		<script  src="assets/js/bootstrap.min.js"></script>
+
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+		<!-- jquery.filterizr.min.js -->
+		<script src="assets/js/jquery.filterizr.min.js"></script>
+
+		<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+		<!--jquery-ui.min.js-->
+        <script src="assets/js/jquery-ui.min.js"></script>
+
+        <!-- counter js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+
+		<!--owl.carousel.js-->
+        <script  src="assets/js/owl.carousel.min.js"></script>
+
+        <!-- jquery.sticky.js -->
+		<script src="assets/js/jquery.sticky.js"></script>
+
+        <!--datepicker.js-->
+        <script  src="assets/js/datepicker.js"></script>
+
+		<!--Custom JS-->
+		<script src="assets/js/custom.js"></script>
+
+
+	</body>
+
+</html>
